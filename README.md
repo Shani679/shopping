@@ -11,8 +11,8 @@ Angular.js
 ## How it works
 * Each user who signed in can browse the virtual store, fill up a virtual cart with products, make an order and choose a date for a direct delivery to his home.
 * New users can sign up by email or sign in by Facebook or Google account.
-* Once the user signed in, he will be associated with a **SESSION** and a button of "Start shopping" will be displayed. In case of returning user, a message about an active cart will be displayed to the user or message about his last order (if he doesn't have an active cart). By clicking on the button the user will be taken to the shopping page. 
-* Once the user has been redirected to the shopping page he will be able to fill up the cart or see his active cart with the products that he already added and continue the shopping from the point where he stopped.
+* Once the user signed in, he will be associated with a **SESSION** with the server and a button of "Start shopping" will be displayed. In case of returning user, a message about an active cart will be displayed to the user or message about his last order (if he doesn't have an active cart). By clicking on the button the user will be taken to the shopping page. 
+* Once the user has been redirected to the shopping page he will be able to fill up the cart or see his active cart with the products that he already added, and continue the shopping from the point where he stopped.
 * What the user can do in the shopping page?
   * To search for products by category or by typing the product's name.
   * To add products to cart by selecting quantity and clicking on "ADD TO CART" button.
@@ -28,3 +28,4 @@ Angular.js
 * After placing the order, the shopping cart (stored on the session) will be stored in the database under the orders collection and will be assigned to the logged-in user.
 * Also, at this point the user will have an option to download a receipt.
 * As noted above, the next time the user will log in the website, a message with details about his last order will be displayed to him.
+* An Admin user who logged in will be taken to the products management page where he will be able to add, edit or delete products offered for purchase.
