@@ -14,10 +14,10 @@ Angular.js
 * Once the user signed in, he will be associated with a **SESSION** with the server and a button of "Start shopping" will be displayed. In case of returning user, a message about an active cart will be displayed to the user or message about his last order (if he doesn't have an active cart). By clicking on the button the user will be taken to the shopping page. 
 * Once the user has been redirected to the shopping page he will be able to fill up the cart or see his active cart with the products that he already added, and continue the shopping from the point where he stopped.
 * What the user can do in the shopping page?
-  * To search for products by category or by typing the product's name.
-  * To add products to cart by selecting quantity and clicking on "ADD TO CART" button.
-  * To remove a product from the cart.
-  * To empty the whole cart. <br/><br/>
+  * Search for products by category or by typing the product's name.
+  * Add products to cart by selecting quantity and clicking on "ADD TO CART" button.
+  * Remove a product from the cart.
+  * Empty the whole cart. <br/><br/>
 * **In each interaction with the shopping cart, the user will see the updated price at the bottom of the cart.**
 * At any point, the user can leave the website, return at another time and continue the shopping exactly from that point (unless the user logged out).
 * By clicking on the CHECKOUT button, the user will be required to fill out the shipping details:
