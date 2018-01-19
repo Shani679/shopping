@@ -1,6 +1,6 @@
 # Online supermarket - online shopping
 Online supermarket is a web application of a self-service virtual supermarket that includes various grocery and food products arranged by categories, allowing the user (customer) to fill up a virtual shopping cart and make an order. <br />
-Also there is an admin user who allowed to add new products and new categories to the supremarket, edit theire details (name, price, image) or remove them.
+Also there is an admin user who allowed to add new products and new categories to the supremarket, edit their details (name, price, image) or remove them.
 ## Built with
 Client | Server | Database <br/>
 ------ | ------ | --------
