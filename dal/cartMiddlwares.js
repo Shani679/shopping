@@ -7,7 +7,7 @@ const responseHandlers = require('../handlers/response-handlers');
 
 
 
-	const cartOrlastOrder = (req, res, next) => {
+   const cartOrlastOrder = (req, res, next) => {
 		if(req.session.cart){
       return next();
     }
